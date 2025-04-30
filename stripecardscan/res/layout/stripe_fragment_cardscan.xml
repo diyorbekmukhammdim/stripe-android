@@ -45,6 +45,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <TextView
+        android:visibility="false"
         android:id="@+id/title"
         android:text="@string/stripe_card_scan_title"
         android:layout_width="0dp"
@@ -73,7 +74,7 @@
         app:layout_constraintTop_toBottomOf="@id/title"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:visibility="gone"/>
+        android:visibility="false"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
