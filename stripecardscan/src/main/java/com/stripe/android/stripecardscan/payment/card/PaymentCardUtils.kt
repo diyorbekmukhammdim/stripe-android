@@ -247,7 +247,7 @@ private val ISSUER_TABLE: List<IssuerData> = listOf(
         LengthPanValidator + LuhnPanValidator
     ),
     IssuerData(
-        400000..499999,
+        400000..899999,
         CardIssuer.Visa,
         (16..19).toList(),
         listOf(3),
